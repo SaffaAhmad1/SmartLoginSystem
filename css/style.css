@@ -1,0 +1,33 @@
+body{
+    /* font-family: 'Titillium Web', sans-serif; */
+    background: #24353f;
+}
+.group {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+h1{
+    color: #17a2b8;
+}
+.form-control{
+    background-color: transparent;
+    color: #FFFFFF;
+    border-radius: .25rem;
+}
+.form-control::placeholder{
+    color: #B6B6B6;
+}
+.form-control:focus{
+    border-color:  #80BDFF;
+    background-color: transparent;
+    color: #FFFFFF;
+    box-shadow: none;
+}
+.group button:hover , .group button:hover:focus{
+    color: #FFFFFF;
+}
+.group a{
+    text-decoration: none;
+}
+.group a:hover{
+    text-decoration: underline;
+}
